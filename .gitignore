@@ -1,0 +1,29 @@
+@"
+# Visual Studio 临时文件、构建结果和文件
+.vs/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.exe
+*.dll
+" | Out-File -FilePath .gitignore -Encoding utf8
